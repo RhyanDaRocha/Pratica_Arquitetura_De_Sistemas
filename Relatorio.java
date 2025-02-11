@@ -8,7 +8,7 @@ public class Relatorio {
 
 
     public void exibirRelatorio(){
-        System.out.println("Exibindo relatorio  " + id);
+        System.out.println("Exibindo relatorio: " + id);
     }
 
 
