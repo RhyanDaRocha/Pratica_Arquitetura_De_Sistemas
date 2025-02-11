@@ -1,22 +1,18 @@
-public class GeradorPdf extends Relatorio{
-   private String arquivo;
+public class GeradorPdf  {
+    private String arquivo;
 
-   
-    public GeradorPdf(String id, String arquivo) {
-    super(id);
-    this.arquivo = arquivo;
-}
+    public GeradorPdf(String arquivo) {
+        this.arquivo = arquivo;
+    }
 
-
-    public void gerarPDF() {
-        System.out.println("Gerando relatório em PDF...");
-        }
-
+  
+    public void gerar(Relatorio relatorio) {
+        System.out.println("Gerando relatório " + relatorio.getId() + " em PDF: " + arquivo);
+    }
 
     public String getArquivo() {
         return arquivo;
     }
-
 
     public void setArquivo(String arquivo) {
         this.arquivo = arquivo;
