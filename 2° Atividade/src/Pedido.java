@@ -12,6 +12,8 @@ public class Pedido {
             return new PagamentoCartao();
         } else if ("boleto".equalsIgnoreCase(tipo)) {
             return new PagamentoBoleto();
+        } else if ("pix".equalsIgnoreCase(tipo)) {
+            return new PagamentoPix();
         }
         return null;
     }
