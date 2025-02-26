@@ -1,0 +1,13 @@
+
+1- O que é o padrão builder e onde ele é aplicado?
+
+
+ - O Builder é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção. O padrão Builder pode ser aplicado quando a construção de várias representações do produto envolvem etapas similares que diferem apenas nos detalhes, como a construção de uma casa de madeira.
+
+
+2- O problema recebido e como o padrão resolve?
+
+Criar um sistema de montagem de pedidos para uma hamburgueria. Com a utilização do Builder, é possível que o cliente consiga fazer o seu pedido e modifica-lo da forma que desejar sem gerar complicações no sistema
+
+
+
